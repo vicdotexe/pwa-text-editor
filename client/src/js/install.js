@@ -18,6 +18,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
 
 // [x]: Add an handler for the `appinstalled` event
 window.addEventListener('appinstalled', (event) => {
-    butInstall.setAttribute('disabled');
-    butInstall.textContent = 'Installed!';
+    // butInstall.setAttribute('disabled');
+    // butInstall.textContent = 'Installed!';
+    console.log("installed!")
 });
